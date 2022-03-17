@@ -1,0 +1,1364 @@
+# Translation of Plugins - Health Check &amp; Troubleshooting - Stable (latest release) in Romanian
+# This file is distributed under the same license as the Plugins - Health Check &amp; Troubleshooting - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-08-18 08:04:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ro\n"
+"Project-Id-Version: Plugins - Health Check &amp; Troubleshooting - Stable (latest release)\n"
+
+#: includes/class-health-check-site-status.php:342
+msgid "Your site has 1 active plugin, and it is up to date."
+msgstr "Situl tău are un modul activ și este actualizat."
+
+#: includes/class-health-check-site-status.php:501
+msgid "Your site has 1 installed theme, and it is up to date."
+msgstr "Situl tău are o temă instalată și este actualizată."
+
+#. translators: %s: The module name.
+#: includes/class-health-check-site-status.php:889
+msgid "The required module, %s, is not installed, or has been disabled."
+msgstr "Extensia necesară, %s, nu este instalată sau a fost dezactivată."
+
+#: pages/site-health-header.php:17
+msgid "Site Health"
+msgstr "Sănătate sit"
+
+#: pages/debug-data.php:123
+msgid "View extended PHP information"
+msgstr "Vezi informațiile PHP extinse"
+
+#: pages/phpinfo.php:15
+msgid "Extended PHP Information"
+msgstr "Informații PHP extinse"
+
+#: pages/site-health-header.php:60
+msgid "The Site Health check requires JavaScript."
+msgstr "Verificarea sănătății sitului necesită JavaScript."
+
+#: pages/site-health-header.php:33
+msgid "Secondary menu"
+msgstr "Meniu secundar"
+
+#: pages/debug-data.php:38
+msgid "Copy site info to clipboard"
+msgstr "Copiază informațiile despre sit în clipboard"
+
+#: pages/debug-data.php:40
+msgid "Copied!"
+msgstr "Copiate!"
+
+#: pages/debug-data.php:32
+msgid "If you want to export a handy list of all the information on this page, you can use the button below to copy it to the clipboard. You can then paste it in a text file and save it to your device, or paste it in an email exchange with a support engineer or theme/plugin developer for example."
+msgstr "Dacă vrei să exporți o listă la îndemână cu toate informațiile de pe această pagină, poți folosi butonul de mai jos pentru a le copia în clipboard. Apoi, le poți plasa într-un fișier text și să-l salvezi pe dispozitivul tău sau le copiezi într-un schimb de emailuri cu un inginer de suport sau cu un dezvoltator de teme/module, de exemplu."
+
+#: includes/class-health-check-debug-data.php:449
+msgid "Plugins directory size"
+msgstr "Dimensiune director de module"
+
+#: includes/class-health-check-debug-data.php:445
+msgid "Plugins directory location"
+msgstr "Locație director de module"
+
+#: includes/class-health-check-debug-data.php:440
+msgid "Themes directory size"
+msgstr "Dimensiune director de teme"
+
+#: includes/class-health-check-debug-data.php:436
+msgid "Themes directory location"
+msgstr "Locație director de teme"
+
+#: includes/class-health-check-debug-data.php:431
+msgid "Uploads directory size"
+msgstr "Dimensiune director de încărcări"
+
+#: includes/class-health-check-debug-data.php:427
+msgid "Uploads directory location"
+msgstr "Locație director de încărcări"
+
+#: includes/class-health-check-debug-data.php:422
+msgid "WordPress directory size"
+msgstr "Dimensiune director WordPress"
+
+#: includes/class-health-check-debug-data.php:418
+msgid "WordPress directory location"
+msgstr "Locație director WordPress"
+
+#: includes/class-health-check-debug-data.php:414
+msgid "Loading&hellip;"
+msgstr "Încarc&hellip;"
+
+#: includes/class-health-check-debug-data.php:321
+msgid "Shows whether WordPress is able to write to the directories it needs access to."
+msgstr "Arată dacă WordPress este capabil să scrie în directorii la care îi trebuie acces."
+
+#: includes/class-health-check-debug-data.php:236
+msgid "These settings alter where and how parts of WordPress are loaded."
+msgstr "Aceste setări modifică locul și modul în care sunt încărcate părți din WordPress."
+
+#: pages/debug-data.php:19
+msgid "Site Health Info"
+msgstr "Informații despre sănătatea sitului"
+
+#: pages/site-status.php:62
+msgid "Passed tests"
+msgstr "Teste trecute"
+
+#: pages/site-status.php:32 includes/class-health-check-dashboard-widget.php:20
+msgid "Site Health Status"
+msgstr "Stare sănătate sit"
+
+#: pages/site-status.php:26
+msgid "Everything is running smoothly here."
+msgstr "Totul rulează fără probleme aici."
+
+#: pages/site-status.php:22
+msgid "Great job!"
+msgstr "Foarte bine!"
+
+#: includes/class-health-check-debug-data.php:1399
+msgid "Total size is not available. Some errors were encountered when determining the size of your installation."
+msgstr "Dimensiunea totală nu este disponibilă. Au apărut unele erori la determinarea dimensiunii instalării tale."
+
+#: includes/class-health-check-debug-data.php:1355
+msgid "The directory size calculation has timed out. Usually caused by a very large number of sub-directories and files."
+msgstr "Calculul dimensiunii directorului a expirat. De obicei, din cauza unui număr foarte mare de sub-directori și fișiere."
+
+#: includes/class-health-check-debug-data.php:1348
+msgid "The size cannot be calculated. The directory is not accessible. Usually caused by invalid permissions."
+msgstr "Dimensiunea nu poate fi calculată. Directorul nu este accesibil. De obicei, din cauza permisiunilor invalide."
+
+#: includes/class-health-check-debug-data.php:954
+#: includes/class-health-check-debug-data.php:1003
+msgid "Theme directory location"
+msgstr "Locație director de teme"
+
+#: includes/class-health-check-debug-data.php:950
+msgid "Theme features"
+msgstr "Funcționalități temă"
+
+#: includes/class-health-check-debug-data.php:946
+msgid "None"
+msgstr "Niciuna"
+
+#: includes/class-health-check-debug-data.php:691
+msgid "Is SUHOSIN installed?"
+msgstr "Este SUHOSIN instalat?"
+
+#: includes/class-health-check-debug-data.php:628
+msgid "PHP version"
+msgstr "Versiune PHP"
+
+#: includes/class-health-check-debug-data.php:623
+msgid "Web server"
+msgstr "Server web"
+
+#: includes/class-health-check-debug-data.php:504
+msgid "ImageMagick version string"
+msgstr "Șir de versiuni ImageMagick"
+
+#: includes/class-health-check-debug-data.php:499
+msgid "ImageMagick version number"
+msgstr "Număr versiune ImageMagick"
+
+#: includes/class-health-check-debug-data.php:127
+msgid "Directories and Sizes"
+msgstr "Directori și dimensiuni"
+
+#: includes/class-health-check-debug-data.php:114
+msgctxt "comment status"
+msgid "Closed"
+msgstr "Închis"
+
+#: includes/class-health-check-debug-data.php:114
+msgctxt "comment status"
+msgid "Open"
+msgstr "Deschis"
+
+#: includes/class-health-check-debug-data.php:99
+msgid "No permalink structure set"
+msgstr "Nu este setată nicio structură pentru legătura permanentă"
+
+#: includes/class-health-check-debug-data.php:84
+msgid "User Language"
+msgstr "Limbă utilizator"
+
+#: includes/class-health-check-debug-data.php:80
+msgid "Site Language"
+msgstr "Limbă sit"
+
+#: includes/class-health-check-site-status.php:1928
+msgid "Debugging enabled"
+msgstr "Depanarea este activată"
+
+#: includes/class-health-check-site-status.php:1851
+msgid "The REST API did not behave correctly"
+msgstr "REST API nu s-a comportat corect"
+
+#: includes/class-health-check-site-status.php:1834
+msgid "The REST API encountered an unexpected result"
+msgstr "REST API a dat peste un rezultat neașteptat"
+
+#. translators: 1: The HTTP response code. 2: The error message returned.
+#: includes/class-health-check-site-status.php:1825
+msgid "Error: [%1$s] %2$s"
+msgstr "Eroare: [%1$s] %2$s"
+
+#: includes/class-health-check-site-status.php:1816
+msgid "The REST API encountered an error"
+msgstr "REST API a dat peste o eroare"
+
+#: includes/class-health-check-site-status.php:1783
+msgid "The REST API is one way WordPress, and other applications, communicate with the server. One example is the block editor screen, which relies on this to display, and save, your posts and pages."
+msgstr "REST API este o cale prin care WordPress și alte aplicații comunică cu serverul. Un exemplu este ecranul editorului de blocuri care se bazează pe REST API pentru a afișa și salva articolele și paginile tale."
+
+#: includes/class-health-check-site-status.php:1617
+msgid "Some plugin or theme updates may not work as expected"
+msgstr "S-ar putea ca unele actualizări de module sau teme să nu funcționeze conform așteptărilor"
+
+#: includes/class-health-check-site-status.php:1609
+msgid "Plugin or theme updates are not working"
+msgstr "Actualizările de module sau teme nu funcționează"
+
+#: includes/class-health-check-site-status.php:1586
+msgid "Plugin and theme updates are working"
+msgstr "Actualizările de module și teme funcționează"
+
+#: includes/class-health-check-site-status.php:1553
+msgid "Background updates may not be working properly"
+msgstr "Actualizările în fundal s-ar putea să nu funcționeze așa cum trebuie"
+
+#: includes/class-health-check-site-status.php:1545
+msgid "Background updates are not working as expected"
+msgstr "Actualizările în fundal nu funcționează conform așteptărilor"
+
+#: includes/class-health-check-site-status.php:1542
+#: includes/class-health-check-site-status.php:1606
+msgid "Passed"
+msgstr "Trecut"
+
+#: includes/class-health-check-site-status.php:1528
+msgid "Background updates ensure that WordPress can auto-update if a security update is released for the version you are currently using."
+msgstr "Actualizările în fundal asigură că WordPress poate face actualizări automate dacă este lansată o actualizare de securitate pentru versiunea pe care o folosești în prezent."
+
+#: includes/class-health-check-site-status.php:1520
+msgid "Background updates are working"
+msgstr "Actualizările în fundal funcționează"
+
+#: includes/class-health-check-site-status.php:1480
+msgid "A scheduled event has failed"
+msgstr "Un eveniment programat a eșuat"
+
+#. translators: %s: The error message returned while from the cron scheduler.
+#: includes/class-health-check-site-status.php:1473
+msgid "While trying to test your site&#8217;s scheduled events, the following error was returned: %s"
+msgstr "În timpul încercării de a testa evenimentele programate ale sitului tău, a fost returnată următoarea eroare: %s"
+
+#: includes/class-health-check-site-status.php:1467
+msgid "It was not possible to check your scheduled events"
+msgstr "Nu am putut verifica evenimentele tale programate"
+
+#: includes/class-health-check-site-status.php:1456
+msgid "Scheduled events are what periodically looks for updates to plugins, themes and WordPress itself. It is also what makes sure scheduled posts are published on time. It may also be used by various plugins to make sure that planned actions are executed."
+msgstr "Evenimentele programate sunt cele care caută periodic actualizări pentru module, teme și WordPress în sine. De asemenea, ele asigură că articolele programate sunt publicate la timp. Pot fi folosite și de unele module pentru a asigura că acțiunile planificate sunt executate."
+
+#: includes/class-health-check-site-status.php:1448
+msgid "Scheduled events are running"
+msgstr "Evenimentele programate sunt funcționale"
+
+#: includes/class-health-check-site-status.php:1429
+msgid "Talk to your web host about OpenSSL support for PHP."
+msgstr "Vorbește cu serviciul tău de găzduire pe web despre suportul OpenSSL pentru PHP."
+
+#: includes/class-health-check-site-status.php:1425
+msgid "Your site is unable to communicate securely with other services"
+msgstr "Situl tău nu poate comunica în siguranță cu alte servicii"
+
+#: includes/class-health-check-site-status.php:1421
+msgid "Your site can communicate securely with other services"
+msgstr "Situl tău poate comunica în siguranță cu alte servicii"
+
+#: includes/class-health-check.php:544
+msgid "Once weekly"
+msgstr "O dată pe săptămână"
+
+#: includes/class-health-check.php:497
+msgid "Info"
+msgstr "Informații"
+
+#: includes/class-health-check.php:385
+msgctxt "Page Title"
+msgid "Site Health"
+msgstr "Sănătate sit"
+
+#: includes/class-health-check.php:370
+msgctxt "Issue counter label for the admin menu"
+msgid "Critical issues"
+msgstr "Probleme critice"
+
+#. translators: %s: Amount of passed tests.
+#: includes/class-health-check.php:246
+msgid "%s Items with no issues detected"
+msgstr "%s elemente fără nicio problemă detectată"
+
+#. translators: %s: Amount of recommended issues.
+#: includes/class-health-check.php:242
+msgid "%s Recommended improvements"
+msgstr "%s îmbunătățiri recomandate"
+
+#. translators: %s: Amount of critical issues.
+#: includes/class-health-check.php:238
+msgid "%s Critical issues"
+msgstr "%s probleme critice"
+
+#: includes/class-health-check.php:234
+msgid "Site information has been added to your clipboard."
+msgstr "Informațiile despre sit au fost adăugate în clipboard."
+
+#: includes/class-health-check.php:229
+msgid "All site health tests have finished running."
+msgstr "Toate testele de sănătate sit au fost rulate."
+
+#: includes/class-health-check.php:230
+msgid "All site health tests have finished running. Your site is looking good, and the results are now available on the page."
+msgstr "Au fost rulate toate testele pentru sănătatea sitului. Situl tău se prezintă bine, iar rezultatele sunt disponibile acum pe pagină."
+
+#: includes/tools/class-health-check-files-integrity.php:197
+#: includes/tools/class-health-check-files-integrity.php:206
+msgid "You do not have access to this file."
+msgstr "Nu ai acces la acest fișier."
+
+#: includes/class-health-check-site-status.php:1904
+msgid "PHP Extensions"
+msgstr "Extensii PHP"
+
+#: includes/class-health-check-site-status.php:1924
+msgid "HTTP Requests"
+msgstr "Cereri HTTP"
+
+#: includes/class-health-check-debug-data.php:584
+msgid "(Does not support 64bit values)"
+msgstr "(Nu suportă valori de 64 de biți)"
+
+#: includes/class-health-check-debug-data.php:624
+msgid "Unable to determine what web server software is used"
+msgstr "Nu pot determina care este software-ul folosit de serverul web"
+
+#: includes/class-health-check-updates.php:368
+msgid "Theme updates should be working as expected."
+msgstr "Actualizările de teme ar trebuie să funcționeze conform așteptărilor."
+
+#: includes/class-health-check-updates.php:349
+msgid "Theme update requests have been blocked."
+msgstr "Cererile de actualizare pentru teme au fost blocate."
+
+#: includes/class-health-check-updates.php:340
+msgid "Theme update hooks have been removed."
+msgstr "Cârligele de actualizare pentru teme au fost înlăturate."
+
+#: includes/class-health-check-updates.php:128
+msgid "Plugin updates should be working as expected."
+msgstr "Actualizările de module ar trebuie să funcționeze conform așteptărilor."
+
+#. translators: %s: List of plugin names.
+#: includes/class-health-check-updates.php:120
+msgid "The following Plugins have been removed from update checks: %s."
+msgstr "Următoarele module au fost înlăturate din verificările de actualizare: %s."
+
+#. translators: %s: List of theme names.
+#: includes/class-health-check-updates.php:360
+msgid "The following Themes have been removed from update checks: %s."
+msgstr "Următoarele teme au fost înlăturate din verificările de actualizare: %s."
+
+#: includes/class-health-check-updates.php:109
+msgid "Plugin update requests have been blocked."
+msgstr "Cererile de actualizare pentru module au fost blocate."
+
+#: includes/class-health-check-updates.php:100
+msgid "Plugin update hooks have been removed."
+msgstr "Cârligele de actualizare pentru module au fost înlăturate."
+
+#. translators: %s: The custom message that may be included with the email.
+#: includes/tools/class-health-check-mail-check.php:70
+msgid "Additional message from admin: %s"
+msgstr "Mesaj suplimentar de la administrator: %s"
+
+#. translators: %s: the name of the query parameter being tested.
+#: includes/class-health-check-site-status.php:1857
+msgid "The REST API did not process the %s query parameter correctly."
+msgstr "REST API nu a procesat corect parametrul de interogare %s."
+
+#: includes/class-health-check-site-status.php:1704
+msgid "HTTP requests seem to be working as expected"
+msgstr "Cererile HTTP par că funcționează conform așteptărilor."
+
+#. translators: %s: The module name.
+#: includes/class-health-check-site-status.php:897
+msgid "The optional module, %s, is not installed, or has been disabled."
+msgstr "Extensia opțională, %s, nu este instalată sau a fost dezactivată."
+
+#: includes/class-health-check-site-status.php:737
+msgid "Required and recommended modules are installed"
+msgstr "Toate extensiile necesare și recomandate sunt instalate"
+
+#: includes/class-health-check-site-status.php:1822
+msgid "The REST API request failed due to an error."
+msgstr "Cererea REST API a eșuat din cauza unei erori."
+
+#. translators: 1: The HTTP response code returned. 2: The error message
+#. returned.
+#: includes/class-health-check-site-status.php:1840
+msgid "The REST API call gave the following unexpected result: (%1$d) %2$s."
+msgstr "Apelarea REST API a dat următorul rezultat neașteptat: (%1$d) %2$s."
+
+#: includes/class-health-check-site-status.php:1955
+msgid "REST API availability"
+msgstr "Disponibilitate REST API"
+
+#: includes/class-health-check-site-status.php:1775
+msgid "The REST API is available"
+msgstr "REST API este disponibilă"
+
+#: includes/class-health-check-site-status.php:1900
+msgid "Database Server version"
+msgstr "Versiune server bază de date"
+
+#: includes/class-health-check-site-status.php:1892
+msgid "Theme Versions"
+msgstr "Versiuni temă"
+
+#: includes/class-health-check-site-status.php:1888
+msgid "Plugin Versions"
+msgstr "Versiuni modul"
+
+#: includes/class-health-check-site-status.php:1884
+msgid "WordPress Version"
+msgstr "Versiune WordPress"
+
+#: includes/class-health-check.php:228
+msgid "Currently being tested..."
+msgstr "În curs de testare..."
+
+#. translators: %s: The active theme name.
+#: includes/class-health-check-loopback.php:196
+msgid "Active theme: %s"
+msgstr "Temă activă: %s"
+
+#: includes/class-health-check-troubleshoot.php:172
+msgid "You have successfully enabled Troubleshooting Mode, all plugins will appear inactive until you disable Troubleshooting Mode, or log out and back in again."
+msgstr "Ai activat cu succes Modul depanare, toate modulele vor apărea inactive până când dezactivezi Modul depanare sau te dezautentifici și te autentifici din nou."
+
+#. translators: %d: The number of outdated themes.
+#: includes/class-health-check-site-status.php:487
+msgid "Your site has %d theme waiting to be updated."
+msgid_plural "Your site has %d themes waiting to be updated."
+msgstr[0] "Situl tău are o temă care așteaptă să fie actualizată."
+msgstr[1] "Situl tău are %d teme care așteaptă să fie actualizate."
+msgstr[2] "Situl tău are %d de teme care așteaptă să fie actualizate."
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1145
+msgid "Switch to this theme"
+msgstr "Comută la această temă"
+
+#. translators: %s: Theme name.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1141
+msgid "Switch the active theme to %s"
+msgstr "Comută tema activă la %s"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1076
+msgid "Enable"
+msgstr "Activează"
+
+#. translators: %s: Plugin name.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1072
+msgid "Enable the plugin, %s, while troubleshooting."
+msgstr "Activează modulul, %s; în timpul depanării."
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1057
+msgid "Disable"
+msgstr "Dezactivează"
+
+#. translators: %s: Plugin name.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1053
+msgid "Disable the plugin, %s, while troubleshooting."
+msgstr "Dezactivează modulul, %s; în timpul depanării."
+
+#: includes/class-health-check-loopback.php:188
+#: includes/class-health-check-loopback.php:199
+msgid "Waiting..."
+msgstr "Așteaptă..."
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1234
+msgid "Dismiss notices"
+msgstr "Respinge anunțurile"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1208
+msgid "Plugin actions, such as activating and deactivating, are not available while in Troubleshooting Mode."
+msgstr "Acțiunile pentru modul, precum activarea și dezactivarea, nu sunt disponibile în timpul modului de depanare."
+
+#. translators: %d: The number of active plugins.
+#: includes/class-health-check-site-status.php:349
+msgid "Your site has %d active plugin, and they are all up to date."
+msgid_plural "Your site has %d active plugins, and they are all up to date."
+msgstr[0] "Situl tău are un modul activ și este actualizat."
+msgstr[1] "Situl tău are %d module active și sunt actualizate."
+msgstr[2] "Situl tău are %d de module active și sunt actualizate."
+
+#. translators: %d: The number of outdated plugins.
+#: includes/class-health-check-site-status.php:323
+msgid "Your site has %d plugin waiting to be updated."
+msgid_plural "Your site has %d plugins waiting to be updated."
+msgstr[0] "Situl tău are un modul care așteaptă să fie actualizat."
+msgstr[1] "Situl tău are %d module care așteaptă să fie actualizate."
+msgstr[2] "Situl tău are %d de module care așteaptă să fie actualizate."
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1200
+msgid "There are no notices to show."
+msgstr "Nu există notificări de arătat."
+
+#. translators: %s: URL to Settings > General to change options.
+#: includes/class-health-check-site-status.php:1373
+msgid "You are accessing this website using HTTPS, but your <a href=\"%s\">WordPress Address</a> is not set up to use HTTPS by default."
+msgstr "Accesezi acest sit folosind HTTPS, dar <a href=\"%s\">adresa ta WordPress</a> nu este configurată să folosească implicit HTTPS."
+
+#. Plugin Name of the plugin
+msgid "Health Check & Troubleshooting"
+msgstr "Health Check & Troubleshooting"
+
+#: includes/class-health-check-site-status.php:622
+msgid "Your site does not have any default theme. Default themes are used by WordPress automatically if anything is wrong with your normal theme."
+msgstr "Situl tău nu are o temă implicită. Temele implicite sunt folosite în mod automat de către WordPress dacă ceva nu este în regulă cu tema ta normală."
+
+#. translators: %d: The number of themes.
+#: includes/class-health-check-site-status.php:508
+msgid "Your site has %d installed theme, and they are all up to date."
+msgid_plural "Your site has %d installed themes, and they are all up to date."
+msgstr[0] "Situl tău are o temă instalată și este actualizată."
+msgstr[1] "Situl tău are %d teme instalate și sunt actualizate."
+msgstr[2] "Situl tău are %d de teme instalate și sunt actualizate."
+
+#: includes/class-health-check-troubleshoot.php:98
+msgid "We could not remove the old must-use plugin."
+msgstr "Nu am putut înlătura vechiul modul obligatoriu de folosit."
+
+#: includes/tools/class-health-check-mail-check.php:124
+msgid "Send test mail"
+msgstr "Trimite email de test"
+
+#: includes/tools/class-health-check-mail-check.php:118
+msgid "Additional message"
+msgstr "Mesaj suplimentar"
+
+#. translators: %s: website url.
+#: includes/tools/class-health-check-mail-check.php:55
+msgid "Health Check – Test Message from %s"
+msgstr "Health Check - Mesaj de test de pe %s"
+
+#: includes/tools/class-health-check-files-integrity.php:136
+msgid "One possible reason for this may be that your installation contains translated versions. An easy way to clear this is to reinstall WordPress. Don't worry. This will only affect WordPress' own files, not your themes, plugins or uploaded media."
+msgstr "Unul dintre posibilele motive poate fi că instalarea ta conține versiuni traduse. O modalitate ușoară de a curăța acest lucru este să reinstalezi WordPress. Nu-ți face griji. Asta va afecta doar fișierele WordPress, nu temele, modulele sau fișierele media încărcate."
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:862
+msgid "Themes"
+msgstr "Teme"
+
+#: includes/class-health-check-debug-data.php:473
+#: includes/class-health-check-debug-data.php:495
+#: includes/class-health-check-debug-data.php:1383
+msgid "Not available"
+msgstr "Indisponibil"
+
+#. translators: Prefix for the active theme in a listing.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:1151
+msgid "Active:"
+msgstr "Activă:"
+
+#: includes/class-health-check-debug-data.php:459
+msgid "Total installation size"
+msgstr "Dimensiune totală instalare"
+
+#: includes/class-health-check-debug-data.php:454
+msgid "Database size"
+msgstr "Dimensiune bază de date"
+
+#: includes/class-health-check-debug-data.php:743
+msgid "Your .htaccess file contains only core WordPress features."
+msgstr "Fișierul tău .htaccess conține doar funcționalitățile nucleului WordPress."
+
+#: includes/class-health-check-debug-data.php:743
+msgid "Custom rules have been added to your .htaccess file."
+msgstr "Regulile personalizate au fost adăugate în fișierul tău .htaccess."
+
+#: includes/class-health-check-debug-data.php:742
+msgid ".htaccess rules"
+msgstr "reguli .htaccess"
+
+#. translators: %s: Latest WordPress version number.
+#. translators: %s: Latest plugin version number.
+#. translators: %s: Latest theme version number.
+#: includes/class-health-check-debug-data.php:62
+#: includes/class-health-check-debug-data.php:880
+#: includes/class-health-check-debug-data.php:912
+#: includes/class-health-check-debug-data.php:970
+#: includes/class-health-check-debug-data.php:1054
+msgid "(Latest version: %s)"
+msgstr "(Ultima versiune: %s)"
+
+#: includes/tools/class-health-check-files-integrity.php:219
+msgid "Modified"
+msgstr "Modificat"
+
+#: includes/tools/class-health-check-files-integrity.php:217
+msgid "Original"
+msgstr "Original"
+
+#: includes/tools/class-health-check-mail-check.php:20
+msgid "Mail Check"
+msgstr "Verificare corespondență"
+
+#: includes/tools/class-health-check-files-integrity.php:240
+msgid "Check the Files Integrity"
+msgstr "Verifică integritatea fișierelor"
+
+#: includes/tools/class-health-check-files-integrity.php:21
+msgid "The File Integrity checks all the core files with the <code>checksums</code> provided by the WordPress API to see if they are intact. If there are changes you will be able to make a Diff between the files hosted on WordPress.org and your installation to see what has been changed."
+msgstr "Integritatea fișierelor verifică toate fișierele nucleului prin <code>checksum-urile</code> furnizate de API-ul WordPress pentru a vedea dacă acestea sunt intacte. Dacă sunt schimbări vei putea face o diferență între fișierele găzduite pe WordPress.org și cele din instalarea ta pentru a vedea ce a fost schimbat."
+
+#: includes/tools/class-health-check-mail-check.php:21
+msgid "The Mail Check will invoke the <code>wp_mail()</code> function and check if it succeeds. We will use the E-mail address you have set up, but you can change it below if you like."
+msgstr "Verificarea corespondenței va invoca funcția <code>wp_mail()</code> și va verifica dacă reușește. Vom folosi adresa de email pe care ai inițializat-o, dar o poți schimba mai jos dacă vrei."
+
+#: includes/tools/class-health-check-mail-check.php:112
+msgid "Email"
+msgstr "Email"
+
+#: includes/tools/class-health-check-files-integrity.php:20
+msgid "File integrity"
+msgstr "Integritate fișiere"
+
+#: includes/class-health-check-debug-data.php:676
+#: includes/class-health-check-debug-data.php:681
+msgid "cURL version"
+msgstr "Versiune cURL"
+
+#: includes/tools/class-health-check-files-integrity.php:142
+#: includes/tools/class-health-check-files-integrity.php:148
+msgid "Reason"
+msgstr "Motiv"
+
+#: includes/tools/class-health-check-files-integrity.php:140
+#: includes/tools/class-health-check-files-integrity.php:146
+msgid "File"
+msgstr "Fișier"
+
+#: includes/class-health-check.php:496
+#: includes/tools/class-health-check-files-integrity.php:138
+#: includes/tools/class-health-check-files-integrity.php:144
+msgid "Status"
+msgstr "Stare"
+
+#: includes/tools/class-health-check-files-integrity.php:135
+msgid "It appears as if some files may have been modified."
+msgstr "Se pare că unele fișiere ar fi putut fi modificate."
+
+#: includes/tools/class-health-check-files-integrity.php:131
+msgid "All files passed the check. Everything seems to be ok!"
+msgstr "Toate fișierele au trecut verificarea. Totul pare să fie ok!"
+
+#: includes/tools/class-health-check-files-integrity.php:104
+msgid "(View Diff)"
+msgstr "(Vezi diferențele)"
+
+#: includes/tools/class-health-check-files-integrity.php:104
+msgid "Content changed"
+msgstr "Conținut schimbat"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:899
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:991
+#: includes/class-health-check-troubleshoot.php:244
+msgid "Disable Troubleshooting Mode"
+msgstr "Dezactivează modul de depanare"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:172
+msgid "Install a default theme"
+msgstr "Instalează o temă implicită"
+
+#: includes/tools/class-health-check-mail-check.php:83
+msgid "It seems there was a problem sending the e-mail."
+msgstr "Se pare că a fost o problemă la trimiterea emailului."
+
+#: includes/tools/class-health-check-mail-check.php:79
+msgid "We have just sent an e-mail using <code>wp_mail()</code> and it seems to work. Please check your inbox and spam folder to see if you received it."
+msgstr "Tocmai am trimis un email folosind <code>wp_mail()</code> și pare să funcționeze. Te rog verifică-ți dosarul cu mesaje primite și cel de spam pentru a vedea dacă l-ai primit."
+
+#: includes/class-health-check-loopback.php:171
+msgid "Result from testing without any plugins active and a default theme"
+msgstr "Rezultat din testarea fără niciun modul activat și o temă implicită"
+
+#: includes/tools/class-health-check-files-integrity.php:107
+msgid "File not found"
+msgstr "Fișier negăsit"
+
+#: pages/tools.php:16 includes/class-health-check.php:499
+msgid "Tools"
+msgstr "Unelte"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:163
+msgid "You don't have any of the default themes installed. A default theme helps you determine if your current theme is causing conflicts."
+msgstr "Nu ai instalată niciuna din temele implicite. O temă implicită te ajută să determini dacă tema actuală cauzează conflicte."
+
+#: includes/class-health-check.php:451
+msgctxt "Menu, Section and Page Title"
+msgid "Health Check"
+msgstr "Health Check"
+
+#. Translators: %s: Plugin slug.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:832
+msgid "Enable %s"
+msgstr "Activează %s"
+
+#. Translators: %s: Plugin slug.
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:817
+msgid "Disable %s"
+msgstr "Dezactivează %s"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:778
+msgid "Manage active plugins"
+msgstr "Administrează modulele active"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:316
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:392
+msgid "Enable while troubleshooting"
+msgstr "Activează în timpul depanării"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:317
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:379
+msgid "Disable while troubleshooting"
+msgstr "Dezactivează în timpul depanării"
+
+#: includes/class-health-check-debug-data.php:801
+msgid "Database name"
+msgstr "Nume bază de date"
+
+#: includes/class-health-check-debug-data.php:485
+msgid "Active editor"
+msgstr "Editor activ"
+
+#. translators: %1$d: The HTTP response code. %2$s: The error message returned.
+#: includes/class-health-check-loopback.php:82
+msgid "Error encountered: (%1$d) %2$s"
+msgstr "Eroare întâlnită: (%1$d) %2$s"
+
+#: includes/class-health-check-debug-data.php:659
+msgid "Max input time"
+msgstr "Timp de intrare maxim"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:310
+#: includes/class-health-check.php:433
+msgid "Troubleshoot"
+msgstr "Depanare"
+
+#: includes/class-health-check.php:227
+msgid "Copied"
+msgstr "Copiat"
+
+#: pages/troubleshoot.php:29
+msgid "A Troubleshooting Mode menu is added to your admin bar, which will allow you to enable plugins individually, switch back to your current theme, and disable Troubleshooting Mode."
+msgstr "Este adăugat în bara de administrare un meniu pentru modul de depanare care îți va permite să activezi modulele individual, să comuți înapoi la tema actuală și să dezactivezi modul de depanare."
+
+#: pages/troubleshoot.php:25
+msgid "By enabling the Troubleshooting Mode, all plugins will appear inactive and your site will switch to the default theme only for you. All other users will see your site as usual."
+msgstr "Prin activarea modului de depanare, toate modulele vor apărea inactive și situl tău va comuta la tema implicită doar pentru tine. Toți ceilalți utilizatori vor vedea situl tău ca de obicei."
+
+#: pages/troubleshoot.php:20
+msgid "When troubleshooting issues on your site, you are likely to be told to disable all plugins and switch to the default theme."
+msgstr "Când depanezi probleme pe situl tău, este posibil să ți se spună să dezactivezi toate modulele și să comuți la tema implicită."
+
+#: includes/class-health-check-debug-data.php:559
+msgid "Unable to determine if Ghostscript is installed"
+msgstr "Nu pot determina dacă Ghostscript este instalat"
+
+#: includes/class-health-check-debug-data.php:529
+msgid "Imagick Resource Limits"
+msgstr "Limite de resurse Imagick"
+
+#: includes/class-health-check-debug-data.php:564
+msgid "Ghostscript version"
+msgstr "Versiune Ghostscript"
+
+#: includes/class-health-check-debug-data.php:543
+msgid "GD version"
+msgstr "Versiune GD"
+
+#: includes/class-health-check-debug-data.php:174
+msgid "Media Handling"
+msgstr "Gestionare media"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:787
+msgid "Plugins"
+msgstr "Module"
+
+#: includes/class-health-check-troubleshoot.php:149
+msgid "We were unable to replace the plugin file required to enable the Troubleshooting Mode."
+msgstr "Nu am reușit să înlocuim fișierul modulului necesar pentru activarea modului de depanare."
+
+#: includes/class-health-check-troubleshoot.php:255
+msgid "Enable Troubleshooting Mode"
+msgstr "Activează modul de depanare"
+
+#: includes/class-health-check-troubleshoot.php:176
+msgid "Return to the Dashboard"
+msgstr "Înapoi la Panoul de control"
+
+#: assets/mu-plugin/health-check-troubleshooting-mode.php:768
+msgid "Troubleshooting Mode"
+msgstr "Mod depanare"
+
+#: pages/troubleshoot.php:21
+msgid "Understandably, you do not wish to do so as it may affect your site visitors, leaving them with lost functionality."
+msgstr "Este de înțeles, nu dorești să faci acest lucru, deoarece ar putea afecta vizitatorii sitului tău, lăsându-i cu funcționalitatea pierdută."
+
+#: includes/class-health-check-troubleshoot.php:105
+msgid "We were unable to copy the plugin file required to enable the Troubleshooting Mode."
+msgstr "Nu am reușit să copiem fișierul modulului necesar pentru activarea modului de depanare."
+
+#: includes/class-health-check.php:226
+msgid "Please wait..."
+msgstr "Te rog așteaptă..."
+
+#: includes/class-health-check.php:498
+msgid "Troubleshooting"
+msgstr "Depanare"
+
+#: pages/troubleshoot.php:33
+msgid "Please note, that due to how Must Use plugins work, any such plugin will not be disabled for the troubleshooting session."
+msgstr "Te rog reține că, datorită modului în care funcționează modulele MU, nu va fi dezactivat niciun astfel de modul pentru sesiunea de depanare."
+
+#: includes/class-health-check-troubleshoot.php:90
+msgid "We were unable to create the mu-plugins directory."
+msgstr "Nu am putut crea directorul mu-plugins."
+
+#: includes/class-health-check-site-status.php:1946
+msgid "Loopback request"
+msgstr "Cerere de întoarcere în buclă"
+
+#: includes/class-health-check-loopback.php:103
+msgid "The loopback request to your site completed successfully."
+msgstr "Cererea de întoarcere în buclă pentru situl tău s-a finalizat cu succes."
+
+#: includes/class-health-check-site-status.php:1920
+msgid "Scheduled events"
+msgstr "Evenimente programate"
+
+#. translators: %s: Plugin version number.
+#. translators: %s: Theme version number.
+#: includes/class-health-check-debug-data.php:835
+#: includes/class-health-check-debug-data.php:873
+#: includes/class-health-check-debug-data.php:1047
+msgid "Version %s"
+msgstr "Versiunea %s"
+
+#. translators: %s: Plugin author name.
+#. translators: %s: Theme author name.
+#: includes/class-health-check-debug-data.php:829
+#: includes/class-health-check-debug-data.php:867
+#: includes/class-health-check-debug-data.php:1041
+msgid "By %s"
+msgstr "De %s"
+
+#. translators: %s: Name of the filter used.
+#: includes/class-health-check-auto-updates.php:446
+msgid "WordPress security and maintenance releases are blocked by the %s filter."
+msgstr "Versiunile WordPress de securitate și întreținere sunt blocate de filtrul %s."
+
+#: includes/class-health-check-auto-updates.php:375
+msgid "Some files are not writable by WordPress:"
+msgstr "Unele fișiere nu pot fi scrise de WordPress:"
+
+#. translators: 1: Folder name. 2: Version control directory.
+#: includes/class-health-check-auto-updates.php:263
+msgid "The folder %1$s was detected as being under version control (%2$s)."
+msgstr "Dosarul %1$s a fost detectat ca fiind sub controlul versiunii (%2$s)."
+
+#. translators: 1: Folder name. 2: Version control directory. 3: Filter name.
+#: includes/class-health-check-auto-updates.php:250
+msgid "The folder %1$s was detected as being under version control (%2$s), but the %3$s filter is allowing updates."
+msgstr "Dosarul %1$s a fost detectat ca fiind sub controlul versiunii (%2$s), dar filtrul %3$s permite actualizări."
+
+#: includes/class-health-check-auto-updates.php:178
+#: includes/class-health-check-auto-updates.php:193
+msgid "You would have received an email because of this."
+msgstr "Ai fi primit un email din cauza asta."
+
+#. translators: %s: Name of the filter used.
+#: includes/class-health-check-auto-updates.php:154
+msgid "The %s filter is enabled."
+msgstr "Filtrul %s este activat."
+
+#. translators: %s: Name of the filter used.
+#: includes/class-health-check-auto-updates.php:134
+msgid "A plugin has prevented updates by disabling %s."
+msgstr "Un modul a împiedicat actualizările dezactivând %s."
+
+#. translators: %s: Name of the constant used.
+#: includes/class-health-check-auto-updates.php:77
+msgid "The %s constant is defined and enabled."
+msgstr "Constanta %s este definită și activată."
+
+#: includes/class-health-check-auto-updates.php:380
+msgid "All of your WordPress files are writable."
+msgstr "Toate fișierele tale WordPress pot fi scrise."
+
+#: includes/class-health-check-site-status.php:1916
+msgid "Secure communication"
+msgstr "Comunicare sigură"
+
+#: includes/class-health-check-wp-cron.php:67
+msgid "No scheduled events exist on this site."
+msgstr "Niciun eveniment programat pe acest sit."
+
+#: includes/class-health-check-auto-updates.php:349
+msgid "This could mean that connections are failing to WordPress.org."
+msgstr "Asta ar putea însemna că eșuează conexiunile la WordPress.org."
+
+#: includes/class-health-check-auto-updates.php:272
+msgid "No version control systems were detected."
+msgstr "Niciun sistem de control al versiunii detectat."
+
+#. translators: %s: Code of error shown.
+#: includes/class-health-check-auto-updates.php:182
+#: includes/class-health-check-auto-updates.php:199
+msgid "The error code was %s."
+msgstr "Codul de eroare a fost %s."
+
+#. translators: %s: WordPress version
+#: includes/class-health-check-auto-updates.php:346
+msgid "Couldn't retrieve a list of the checksums for WordPress %s."
+msgstr "Nu am putut obține o listă a cheilor de verificare criptografice pentru WordPress %s."
+
+#: includes/class-health-check-debug-data.php:584
+msgid "(Supports 64bit values)"
+msgstr "(Suportă valori pe 64 de biți) "
+
+#: includes/class-health-check-auto-updates.php:191
+msgid "A previous automatic background update could not occur."
+msgstr "Nu se poate face o actualizare anterioară și automată în fundal."
+
+#: includes/class-health-check-auto-updates.php:179
+msgid "When you've been able to update using the \"Update Now\" button on Dashboard > Updates, we'll clear this error for future update attempts."
+msgstr "Când vei putea să actualizezi folosind butonul „Actualizează acum” din Panou control > Actualizări, vom șterge această eroare pentru încercările de actualizare viitoare."
+
+#: includes/class-health-check-auto-updates.php:196
+msgid "We'll try again with the next release."
+msgstr "Vom încerca din nou la următoarea versiune."
+
+#: includes/class-health-check-auto-updates.php:289
+msgid "Your installation of WordPress prompts for FTP credentials to perform updates."
+msgstr "Pentru a face actualizări, instalarea ta WordPress solicită datele de conectare prin FTP."
+
+#: includes/class-health-check-auto-updates.php:290
+msgid "(Your site is performing updates over FTP due to file ownership. Talk to your hosting company.)"
+msgstr "(Situl tău face actualizări prin FTP din cauza proprietății fișierelor. Vorbește cu compania ta de găzduire.)"
+
+#: includes/class-health-check-auto-updates.php:299
+msgid "Your installation of WordPress doesn't require FTP credentials to perform updates."
+msgstr "Instalarea ta WordPress nu are nevoie de datele de conectare prin FTP pentru a face actualizări."
+
+#. translators: %s: Name of the constant used.
+#: includes/class-health-check-auto-updates.php:435
+msgid "WordPress security and maintenance releases are blocked by %s."
+msgstr "Lansările de securitate și întreținere WordPress sunt blocate de %s."
+
+#: includes/class-health-check-site-status.php:1942
+msgid "Background updates"
+msgstr "Actualizări în fundal"
+
+#: includes/class-health-check-auto-updates.php:177
+msgid "A previous automatic background update ended with a critical failure, so updates are now disabled."
+msgstr "O actualizare anterioară și automată în fundal s-a încheiat cu o eroare critică, prin urmare actualizările sunt acum dezactivate."
+
+#. translators: %s: Name of the constant used.
+#: includes/class-health-check-auto-updates.php:404
+msgid "WordPress development updates are blocked by the %s constant."
+msgstr "Actualizările de dezvoltare WordPress sunt blocate de constanta %s."
+
+#. translators: %s: Name of the filter used.
+#: includes/class-health-check-auto-updates.php:415
+msgid "WordPress development updates are blocked by the %s filter."
+msgstr "Actualizările de dezvoltare WordPress sunt blocate de filtrul %s."
+
+#. translators: %s: The name of the failed cron event.
+#: includes/class-health-check-site-status.php:1486
+msgid "The scheduled event, %s, failed to run. Your site still works, but this may indicate that scheduling posts or automated updates may not work as intended."
+msgstr "Evenimentul programat, %s, a eșuat la rulare. Situl tău încă funcționează, dar asta ar putea indica că programarea articolelor sau actualizările automate s-ar putea să nu funcționeze așa cum trebuie."
+
+#: includes/class-health-check-debug-data.php:819
+#: includes/class-health-check-debug-data.php:857
+#: includes/class-health-check-debug-data.php:1031
+msgid "No version or author information is available."
+msgstr "Nu sunt disponibile informații despre versiune sau autor."
+
+#. Author of the plugin
+msgid "The WordPress.org community"
+msgstr "Comunitatea WordPress.org"
+
+#. Description of the plugin
+msgid "Checks the health of your WordPress install."
+msgstr "Verifică sănătatea instalării tale WordPress."
+
+#: includes/class-health-check-site-status.php:1912
+msgid "HTTPS status"
+msgstr "Stare HTTPS"
+
+#. translators: 1: Parent theme name. 2: Parent theme slug.
+#. translators: 1: Theme name. 2: Theme slug.
+#: includes/class-health-check-debug-data.php:923
+#: includes/class-health-check-debug-data.php:981
+#: includes/class-health-check-debug-data.php:1062
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: includes/class-health-check-debug-data.php:945
+msgid "Parent theme"
+msgstr "Temă părinte"
+
+#: includes/class-health-check-debug-data.php:935
+#: includes/class-health-check-debug-data.php:993
+msgid "Author"
+msgstr "Autor"
+
+#: includes/class-health-check-debug-data.php:920
+#: includes/class-health-check-debug-data.php:978
+msgid "Name"
+msgstr "Nume"
+
+#. translators: 1: Plugin version number. 2: Plugin author name.
+#. translators: 1: Theme version number. 2: Theme author name.
+#: includes/class-health-check-debug-data.php:824
+#: includes/class-health-check-debug-data.php:862
+#: includes/class-health-check-debug-data.php:1036
+msgid "Version %1$s by %2$s"
+msgstr "Versiunea %1$s de %2$s"
+
+#: includes/class-health-check-debug-data.php:807
+msgid "Database prefix"
+msgstr "Prefix bază de date"
+
+#: includes/class-health-check-debug-data.php:795
+msgid "Database host"
+msgstr "Găzduire bază de date"
+
+#: includes/class-health-check-debug-data.php:789
+msgid "Database user"
+msgstr "Utilizator bază de date"
+
+#: includes/class-health-check-debug-data.php:784
+msgid "Client version"
+msgstr "Versiune client"
+
+#: includes/class-health-check-debug-data.php:779
+msgid "Server version"
+msgstr "Versiune server"
+
+#: includes/class-health-check-debug-data.php:774
+msgid "Extension"
+msgstr "Extensie"
+
+#: includes/class-health-check-debug-data.php:641
+msgid "Server settings"
+msgstr "Setări server"
+
+#: includes/class-health-check-debug-data.php:633
+msgid "PHP SAPI"
+msgstr "PHP SAPI"
+
+#: includes/class-health-check-site-status.php:1896
+msgid "PHP Version"
+msgstr "Versiune PHP"
+
+#: includes/class-health-check-debug-data.php:612
+msgid "Server architecture"
+msgstr "Arhitectură server"
+
+#: includes/class-health-check-debug-data.php:396
+msgid "WordPress.org is reachable"
+msgstr "WordPress.org este accesibil"
+
+#: includes/class-health-check-debug-data.php:344
+msgid "The themes directory"
+msgstr "Directorul de teme"
+
+#: includes/class-health-check-debug-data.php:339
+msgid "The plugins directory"
+msgstr "Directorul de module"
+
+#: includes/class-health-check-debug-data.php:334
+msgid "The uploads directory"
+msgstr "Directorul de încărcări"
+
+#: includes/class-health-check-debug-data.php:329
+msgid "The wp-content directory"
+msgstr "Directorul wp-content"
+
+#: includes/class-health-check-debug-data.php:325
+#: includes/class-health-check-debug-data.php:330
+#: includes/class-health-check-debug-data.php:335
+#: includes/class-health-check-debug-data.php:340
+#: includes/class-health-check-debug-data.php:345
+#: includes/class-health-check-debug-data.php:1078
+msgid "Not writable"
+msgstr "Nu poate fi scris"
+
+#: includes/class-health-check-debug-data.php:325
+#: includes/class-health-check-debug-data.php:330
+#: includes/class-health-check-debug-data.php:335
+#: includes/class-health-check-debug-data.php:340
+#: includes/class-health-check-debug-data.php:345
+#: includes/class-health-check-debug-data.php:1078
+msgid "Writable"
+msgstr "Poate fi scris"
+
+#: includes/class-health-check-debug-data.php:190
+#: includes/class-health-check-debug-data.php:200
+#: includes/class-health-check-debug-data.php:209
+#: includes/class-health-check-debug-data.php:218
+#: includes/class-health-check-debug-data.php:227
+#: includes/class-health-check-debug-data.php:267
+#: includes/class-health-check-debug-data.php:272
+#: includes/class-health-check-debug-data.php:282
+#: includes/class-health-check-debug-data.php:287
+msgid "Disabled"
+msgstr "Dezactivat"
+
+#: includes/class-health-check-debug-data.php:195
+#: includes/class-health-check-debug-data.php:200
+#: includes/class-health-check-debug-data.php:209
+#: includes/class-health-check-debug-data.php:218
+#: includes/class-health-check-debug-data.php:227
+#: includes/class-health-check-debug-data.php:267
+#: includes/class-health-check-debug-data.php:272
+#: includes/class-health-check-debug-data.php:282
+#: includes/class-health-check-debug-data.php:287
+msgid "Enabled"
+msgstr "Activat"
+
+#: includes/class-health-check-debug-data.php:203
+#: includes/class-health-check-debug-data.php:212
+#: includes/class-health-check-debug-data.php:221
+#: includes/class-health-check-debug-data.php:230
+#: includes/class-health-check-debug-data.php:245
+#: includes/class-health-check-debug-data.php:250
+#: includes/class-health-check-debug-data.php:941
+#: includes/class-health-check-debug-data.php:999
+msgid "Undefined"
+msgstr "Nedefinit"
+
+#: includes/class-health-check-debug-data.php:235
+msgid "WordPress Constants"
+msgstr "Constante WordPress"
+
+#: includes/class-health-check-debug-data.php:179
+msgid "Server"
+msgstr "Server"
+
+#: includes/class-health-check-debug-data.php:168
+msgid "Inactive Plugins"
+msgstr "Module inactive"
+
+#: includes/class-health-check-debug-data.php:162
+msgid "Active Plugins"
+msgstr "Module active"
+
+#: includes/class-health-check-debug-data.php:133
+msgid "Drop-ins"
+msgstr "Drop-in-uri"
+
+#: includes/class-health-check-debug-data.php:113
+msgid "Default comment status"
+msgstr "Stare implicită comentarii"
+
+#: includes/class-health-check-debug-data.php:108
+msgid "Can anyone register on this site?"
+msgstr "Poate cineva să se înregistreze pe acest sit?"
+
+#: includes/class-health-check-debug-data.php:104
+#: includes/class-health-check-debug-data.php:109
+#: includes/class-health-check-debug-data.php:119
+#: includes/class-health-check-debug-data.php:692
+#: includes/class-health-check-debug-data.php:701
+msgid "No"
+msgstr "Nu"
+
+#: includes/class-health-check-debug-data.php:104
+#: includes/class-health-check-debug-data.php:109
+#: includes/class-health-check-debug-data.php:119
+#: includes/class-health-check-debug-data.php:692
+#: includes/class-health-check-debug-data.php:701
+msgid "Yes"
+msgstr "Da"
+
+#: includes/class-health-check-debug-data.php:103
+msgid "Is this site using HTTPS?"
+msgstr "Acest sit folosește HTTPS?"
+
+#: includes/class-health-check-debug-data.php:98
+msgid "Permalink structure"
+msgstr "Structură legătură permanentă"
+
+#: includes/class-health-check-debug-data.php:93
+msgid "Site URL"
+msgstr "URL sit"
+
+#: includes/class-health-check-debug-data.php:88
+msgid "Home URL"
+msgstr "URL prima pagină"
+
+#: includes/class-health-check-debug-data.php:75
+#: includes/class-health-check-debug-data.php:930
+#: includes/class-health-check-debug-data.php:988
+#: includes/tools/class-health-check-plugin-compatibility.php:24
+msgid "Version"
+msgstr "Versiune"
+
+#: includes/class-health-check-debug-data.php:72
+msgid "WordPress"
+msgstr "WordPress"
+
+#: includes/class-health-check-debug-data.php:118
+msgid "Is this a multisite?"
+msgstr "Acesta este un multi-sit?"
+
+#: includes/class-health-check-debug-data.php:140
+msgid "Active Theme"
+msgstr "Temă activă"
+
+#: pages/phpinfo.php:32
+msgid "Some scenarios require you to look up more detailed server configurations than what is normally required. This page allows you to view all available configuration options for your PHP setup. Please be advised that WordPress does not guarantee that any information shown on this page may not be considered private."
+msgstr "Unele scenarii îți cer să cauți configurări de server mai detaliate decât sunt necesare în mod normal. Această pagină îți permite să vezi toate opțiunile de configurare disponibile pentru inițializarea ta PHP. Te rog reține că WordPress nu garantează că toate informațiile afișate în această pagină nu pot fi considerate private."
+
+#: pages/phpinfo.php:24
+msgid "The phpinfo() function has been disabled by your host. Please contact the host if you need more information about your setup."
+msgstr "Funcția phpinfo() a fost dezactivată de gazda ta. Te rog contactează gazda dacă ai nevoie de mai multe informații despre inițializarea ta."
+
+#: includes/class-health-check-debug-data.php:940
+#: includes/class-health-check-debug-data.php:998
+msgid "Author website"
+msgstr "Sit web autor"
+
+#: includes/class-health-check-debug-data.php:667
+msgid "PHP post max size"
+msgstr "Dimensiune maximă articol PHP"
+
+#: includes/class-health-check-debug-data.php:634
+msgid "Unable to determine PHP SAPI"
+msgstr "Nu pot determina PHP SAPI"
+
+#: includes/class-health-check-debug-data.php:591
+msgid "Unable to determine PHP version"
+msgstr "Nu pot determina versiunea PHP"
+
+#: includes/class-health-check-debug-data.php:613
+msgid "Unable to determine server architecture"
+msgstr "Nu pot determina arhitectura serverului"
+
+#: includes/class-health-check-site-status.php:1938
+#: includes/class-health-check-debug-data.php:395
+#: includes/class-health-check-debug-data.php:401
+msgid "Communication with WordPress.org"
+msgstr "Comunicare cu WordPress.org"
+
+#: includes/class-health-check-debug-data.php:324
+msgid "The main WordPress directory"
+msgstr "Directorul WordPress principal"
+
+#: includes/class-health-check-debug-data.php:320
+msgid "Filesystem Permissions"
+msgstr "Permisiuni sistem de fișiere"
+
+#: includes/class-health-check-debug-data.php:185
+msgid "Database"
+msgstr "Bază de date"
+
+#: includes/class-health-check-debug-data.php:156
+msgid "Must Use Plugins"
+msgstr "Module MU"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://wordpress.org/plugins/health-check/"
+msgstr "https://wordpress.org/plugins/health-check/"
+
+#: includes/class-health-check-debug-data.php:647
+msgid "PHP max input variables"
+msgstr "Număr maxim de variabile de intrare PHP"
+
+#: includes/class-health-check-debug-data.php:651
+msgid "PHP time limit"
+msgstr "Limită de timp PHP"
+
+#. translators: 1: The IP address WordPress.org resolves to. 2: The error
+#. returned by the lookup.
+#: includes/class-health-check-debug-data.php:404
+msgid "Unable to reach WordPress.org at %1$s: %2$s"
+msgstr "Nu pot accesa WordPress.org la %1$s: %2$s"
+
+#: includes/class-health-check-debug-data.php:663
+msgid "Upload max filesize"
+msgstr "Dimensiune maximă fișier de încărcat"
+
+#: includes/class-health-check-debug-data.php:655
+msgid "PHP memory limit"
+msgstr "Limită de memorie PHP"
+
+#: includes/class-health-check-site-status.php:1908
+msgid "MySQL utf8mb4 support"
+msgstr "Suport utf8mb4 pentru MySQL"
+
+#: includes/class-health-check-site-status.php:1087
+msgid "Your MariaDB version supports utf8mb4."
+msgstr "Versiunea ta de MariaDB suportă utf8mb4."
+
+#: includes/class-health-check-site-status.php:1067
+msgid "Your MySQL version supports utf8mb4."
+msgstr "Versiunea ta de MySQL suportă utf8mb4."
+
+#: pages/site-status.php:35
+msgid "The site health check shows critical information about your WordPress configuration and items that require your attention."
+msgstr "Verificarea sănătății sitului prezintă informații critice despre configurarea ta WordPress și despre elementele care necesită atenție."
+
+#: includes/class-health-check-debug-data.php:700
+msgid "Is the Imagick library available?"
+msgstr "Biblioteca Imagick este disponibilă?"
+
+#: includes/class-health-check-debug-data.php:642
+msgid "Unable to determine some settings, as the ini_get() function has been disabled."
+msgstr "Nu pot determina unele setări deoarece funcția ini_get() a fost dezactivată."
+
+#: includes/class-health-check-debug-data.php:378
+msgid "Network count"
+msgstr "Număr de rețele"
+
+#: includes/class-health-check-debug-data.php:373
+msgid "Site count"
+msgstr "Număr de situri"
+
+#: includes/class-health-check-debug-data.php:368
+#: includes/class-health-check-debug-data.php:385
+msgid "User count"
+msgstr "Număr de utilizatori"
+
+#: includes/class-health-check-debug-data.php:1077
+msgid "The must use plugins directory"
+msgstr "Directorul modulelor care trebuie folosite"
+
+#: includes/class-health-check-debug-data.php:180
+msgid "The options shown below relate to your server setup. If changes are required, you may need your web host&#8217;s assistance."
+msgstr "Opțiunile arătate mai jos se referă la configurarea serverului tău. Dacă sunt necesare modificări, s-ar putea să ai nevoie de asistență din partea serviciului tău de găzduire."
+
+#: includes/class-health-check-debug-data.php:135
+msgid "Drop-ins are single files that replace or enhance WordPress features in ways that are not possible for traditional plugins."
+msgstr "Modulele polivalente sunt fișiere unice care înlocuiesc sau îmbunătățesc funcționalitățile WordPress în alte moduri, care nu sunt posibile pentru modulele tradiționale."
